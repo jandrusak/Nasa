@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.outer-container {
+    background-color: white;
+    width: 850px;
+    margin: 0 auto;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-container {
+    background-image: url("./images/hero-image.jpg");
+    background-color: green;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 850px;
+    height: 450px;
+    text-transform: uppercase;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title {
+    font-size: 100px;
+    color: white;
+}
+
+.bottom-container {
+    background-color: rgb(135, 135, 135);
+    width: 850px;
+    height: 324px;
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-boxes {
+    height: 324px;
+    width: 270px;
+    color: black;
+    padding: 24px;
+}
+
+.bottom-boxes>h3 {
+ text-transform: capitalize;
+ font-size: 18px;
+ font-weight: bolder;
+ padding-bottom: 10px;
+
+}
+
+.content {
+    /* margin-top: 5px; */
+    font-size:small;
+    font-weight: light;
+    color: rgb(59, 58, 58);
+    
+}
+
+.button {
+    display:block;
+    margin: 5px 0 0 0;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 1.5px 10px;
+}
+
+p {
+    line-height: 20px;
+}
